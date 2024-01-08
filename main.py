@@ -4,7 +4,7 @@ pygame.init()
 W_width =700
 W_height = 500
 win = pygame.display.set_mode((W_width, W_height)) 
-pygame.display.set_caption("PingPong") 
+pygame.display.set_caption("PINGPONG") 
 m_vel = 7
 L_x = 10
 L_y = 200
