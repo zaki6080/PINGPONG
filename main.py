@@ -1,19 +1,16 @@
-import pygame
-pygame.init()
 
-
-WIDTH, HEIGHT = 800, 500
-WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Pong")
-
-FPS = 60
-
-WHITE = (255, 255, 255)
-BLACK = (0, 0, 0)
-
-PADDLE_WIDTH, PADDLE_HEIGHT = 20, 100
-BALL_RADIUS = 7
-
-SCORE_FONT = pygame.font.SysFont("comicsans", 50)
-WINNING_SCORE = 10
- 
+import pygame 
+pygame.init() 
+W_width =700
+W_height = 500
+win = pygame.display.set_mode((W_width, W_height)) 
+pygame.display.set_caption("PingPong") 
+m_vel = 7
+L_x = 10
+L_y = 200
+R_x = 680
+R_y = 200
+L_width = 10
+L_height = 90
+R_width = 10
+R_height = 90
