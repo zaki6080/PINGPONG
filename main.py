@@ -30,3 +30,8 @@ R_score_text_y = 10
 R_score_text_x = 670
 L_score_text_y = 10
 L_score_text_x = 10
+def start():
+    global B_x
+    global B_y
+    B_x += ball_x_vel
+    B_y += ball_y_vel
