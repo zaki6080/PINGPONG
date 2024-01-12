@@ -35,3 +35,11 @@ def start():
     global B_y
     B_x += ball_x_vel
     B_y += ball_y_vel
+
+def score ():
+   global B_x
+   global B_y
+   global R_score
+   global L_score 
+   global ball_y_vel
+   global ball_x_vel
