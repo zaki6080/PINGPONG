@@ -43,3 +43,11 @@ def score ():
    global L_score 
    global ball_y_vel
    global ball_x_vel
+
+   if B_x <= 0:
+      start()
+      R_score +=1
+      B_x = W_width//2
+      B_y = W_height//2
+      ball_x_vel = 9
+      ball_y_vel = 0
