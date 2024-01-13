@@ -65,4 +65,6 @@ def show_score(R_x, R_y,L_x,L_y):
    global L_score 
    global ball_y_vel
    global ball_x_vel
-   
+
+   #B_x += ball_x_vel
+   #B_y += ball_y_vel
