@@ -59,4 +59,8 @@ def score ():
       ball_x_vel = 9
       ball_y_vel = 0
 def show_score(R_x, R_y,L_x,L_y):
-  
+    score = font.render(str(R_score), True, (255, 255, 255))
+    win.blit(score, (R_x, R_y))
+    score = font.render(str(L_score), True, (255, 255, 255))
+    win.blit(score, (L_x, L_y))
+    #pygame.display.update()
