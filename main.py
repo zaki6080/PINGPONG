@@ -59,12 +59,4 @@ def score ():
       ball_x_vel = 9
       ball_y_vel = 0
 def show_score(R_x, R_y,L_x,L_y):
-   global B_x
-   global B_y
-   global R_score
-   global L_score 
-   global ball_y_vel
-   global ball_x_vel
-
-   #B_x += ball_x_vel
-   #B_y += ball_y_vel
+  
