@@ -64,3 +64,6 @@ def show_score(R_x, R_y,L_x,L_y):
     score = font.render(str(L_score), True, (255, 255, 255))
     win.blit(score, (L_x, L_y))
     #pygame.display.update()
+
+def Winner():
+    pass
