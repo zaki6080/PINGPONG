@@ -67,3 +67,9 @@ def show_score(R_x, R_y,L_x,L_y):
 
 def Winner():
     pass
+
+def reset():
+    global B_x
+    global B_y
+    global ball_y_vel
+    global ball_x_vel
