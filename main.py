@@ -72,7 +72,8 @@ def reset():
     global B_x
     global B_y
     global ball_y_vel
-    global ball_x_ve
+    global ball_x_vel
+    global ball_x_vel
     if B_x <=0 or B_x >= W_width:
        B_x = W_width//2
        B_y = W_height//2
