@@ -79,3 +79,9 @@ def reset():
        B_y = W_height//2
        ball_x_vel = 5
        ball_y_vel = 0
+      
+def Y_Boundary_Collision():
+   global ball_y_vel
+   if B_y + ball_radius > W_height or B_y - ball_radius < 0:
+       ball_y_vel *= -1
+   #return  ball_y_vel
