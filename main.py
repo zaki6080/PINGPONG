@@ -85,3 +85,7 @@ def Y_Boundary_Collision():
    if B_y + ball_radius > W_height or B_y - ball_radius < 0:
        ball_y_vel *= -1
    #return  ball_y_vel
+
+def X_Boundary_Collision():
+    global ball_y_vel
+    global ball_x_vel      
