@@ -91,3 +91,11 @@ def X_Boundary_Collision():
     global ball_x_vel      
     if ball_x_vel < 0:
        if B_y >= L_y and B_y <= L_y + L_height:
+           if B_x - ball_radius <= L_x + L_width:
+                ball_x_vel *= -1
+
+                middle_y = L_y + L_height / 2
+                difference_in_y = middle_y - B_y
+                reduction_factor = (L_height / 2) / m_vel
+                y_vel = difference_in_y / reduction_factor
+                ball_y_vel = -1 * y_vel
