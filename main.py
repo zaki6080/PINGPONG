@@ -89,3 +89,5 @@ def Y_Boundary_Collision():
 def X_Boundary_Collision():
     global ball_y_vel
     global ball_x_vel      
+    if ball_x_vel < 0:
+       if B_y >= L_y and B_y <= L_y + L_height:
