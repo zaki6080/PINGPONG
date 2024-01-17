@@ -99,3 +99,9 @@ def X_Boundary_Collision():
                 reduction_factor = (L_height / 2) / m_vel
                 y_vel = difference_in_y / reduction_factor
                 ball_y_vel = -1 * y_vel
+
+                middle_y = L_y + L_height / 2
+                difference_in_y = middle_y - B_y
+                reduction_factor = (L_height / 2) / m_vel
+                y_vel = difference_in_y / reduction_factor
+                ball_y_vel = -1 * y_vel
