@@ -105,3 +105,12 @@ def X_Boundary_Collision():
                 reduction_factor = (L_height / 2) / m_vel
                 y_vel = difference_in_y / reduction_factor
                 ball_y_vel = -1 * y_vel
+    else:
+            if B_y >= R_y and B_y <= R_y + R_height:
+              if B_x + ball_radius >= R_x:
+                 ball_x_vel *= -1                                      
+                 middle_y = R_y + R_height / 2
+                 difference_in_y = middle_y - B_y
+                 reduction_factor = (R_height / 2) / m_vel
+                 y_vel = difference_in_y / reduction_factor
+                 ball_y_vel = -1 * y_vel
