@@ -116,4 +116,5 @@ def X_Boundary_Collision():
                  ball_y_vel = -1 * y_vel
 
 while run :
-                   
+    X_Boundary_Collision()
+    Y_Boundary_Collision()
