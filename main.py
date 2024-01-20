@@ -118,3 +118,5 @@ def X_Boundary_Collision():
 while run :
     X_Boundary_Collision()
     Y_Boundary_Collision()
+    clock.tick(FPS)
+    start()
