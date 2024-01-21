@@ -123,3 +123,12 @@ while run :
     for event in pygame.event.get(): 
       if event.type == pygame.QUIT: 
          run = False
+         keys = pygame.key.get_pressed() 
+    #if keys[pygame.K_a] and L_x>0: 
+    #    L_x -= vel 
+    #if keys[pygame.K_d] and L_x<W_width-L_width: 
+    #   L_x += vel 
+    if keys[pygame.K_w] and L_y>0: 
+       L_y -= vel 
+    if keys[pygame.K_s] and L_y<W_height-L_height: 
+        L_y += vel 
