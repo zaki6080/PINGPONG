@@ -120,3 +120,6 @@ while run :
     Y_Boundary_Collision()
     clock.tick(FPS)
     start()
+    for event in pygame.event.get(): 
+      if event.type == pygame.QUIT: 
+         run = False
