@@ -132,3 +132,11 @@ while run :
        L_y -= vel 
     if keys[pygame.K_s] and L_y<W_height-L_height: 
         L_y += vel 
+        #if keys[pygame.K_LEFT] and R_x>0: 
+	#	R_x -= vel 
+	#if keys[pygame.K_RIGHT] and R_x<W_width-L_width: 
+	#	R_x += vel 
+    if keys[pygame.K_UP] and R_y>0: 
+       R_y -= vel 
+    if keys[pygame.K_DOWN] and R_y<W_height-L_height: 
+        R_y += vel 
