@@ -141,3 +141,5 @@ while run :
     if keys[pygame.K_DOWN] and R_y<W_height-L_height: 
         R_y += vel 
     win.fill((0, 0, 0)) 
+    pygame.draw.circle(win,(255,255,255),(B_x,B_y),ball_radius)
+   
