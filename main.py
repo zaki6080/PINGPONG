@@ -142,4 +142,6 @@ while run :
         R_y += vel 
     win.fill((0, 0, 0)) 
     pygame.draw.circle(win,(255,255,255),(B_x,B_y),ball_radius)
-   
+    pygame.draw.rect(win, (255, 255, 255), (L_x, L_y, L_width, L_height)) 
+    pygame.draw.rect(win, (255, 255, 255), (R_x, R_y, R_width, R_height)) 
+    
