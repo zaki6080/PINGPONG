@@ -140,3 +140,4 @@ while run :
        R_y -= vel 
     if keys[pygame.K_DOWN] and R_y<W_height-L_height: 
         R_y += vel 
+    win.fill((0, 0, 0)) 
