@@ -145,3 +145,7 @@ while run :
     pygame.draw.rect(win, (255, 255, 255), (L_x, L_y, L_width, L_height)) 
     pygame.draw.rect(win, (255, 255, 255), (R_x, R_y, R_width, R_height)) 
     pygame.draw.line(win, (255,255,255), (W_width//2,0), (W_width//2,W_height), 2)
+    show_score(R_score_text_x,R_score_text_y,L_score_text_x,L_score_text_y)
+    pygame.display.update() 
+
+pygame.quit() 
